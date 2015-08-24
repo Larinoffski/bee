@@ -1,12 +1,15 @@
 <?php
 
-class Index_Model extends Model{
+class Index_Model extends Model
+{
 
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
     }
 
-    public function post(){
+    public function post()
+    {
         echo "123";
     }
 }
